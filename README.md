@@ -1,19 +1,16 @@
 Mentor
 ======
 
-A simple file sharing app over HTTP/HTTPS
+A simple file sharing app over HTTP (for the HTTPS version, see https://github.com/fim/mentor)
 
 Simply provide a list of files and directories to share and they will be
-shared without the need for any webserver or any extra configuration. Also
-supports hole punching using UPnP
+shared without the need for any webserver or any extra configuration. Manual port forwarding is required if desired.
 
 Requirements
 ------------
 
  * Python (2.7 tested)
  * gevent
- * miniupnpc (if using UPnP)
- * M2Crypto  (if using SSL)
 
 Installation
 ------------
